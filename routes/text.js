@@ -41,7 +41,7 @@ let algo = function(obj){
       .create({ 
          body: obj.endless, 
          from: '+12248013117',       
-         to: 'whatsapp:+52' + obj.number 
+         to: '+52' + obj.number 
        }) 
       .then(message => console.log(message.sid)) 
       .done();
